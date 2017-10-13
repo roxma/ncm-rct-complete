@@ -8,7 +8,7 @@ register_source(name='rct-complete',
                 scoping=True,
                 scopes=['ruby'],
                 sort=0,
-                cm_refresh_patterns=[r'\.$'],)
+                cm_refresh_patterns=[r'\.', r'::'],)
 
 import subprocess
 
